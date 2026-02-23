@@ -1,0 +1,14 @@
+REPORTE (salida automatizada)
+=============================
+
+Observaciones: 300
+Ingreso promedio: 1512.97
+Ingreso mediana: 1482.5
+Ingreso SD: 364.14
+Edad promedio: 42.77
+Tasa de pobreza: 0.307
+
+Archivos generados:
+- results/tables/tabla_resumen.csv
+- results/figures/histograma_ingreso.png
+
