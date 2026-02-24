@@ -11,7 +11,7 @@ hist(df$ingreso,
      main = "Histograma de ingreso (datos sintéticos)",
      xlab = "Ingreso",
      ylab = "Frecuencia"
-     col = "black",      
+     col = "blue",      
      border = "white")
 dev.off()
 
