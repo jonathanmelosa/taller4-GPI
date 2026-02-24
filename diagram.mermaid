@@ -1,0 +1,16 @@
+flowchart TD
+
+  A[runall.sh] --> B[simulacion.R]
+  B --> C[Genera datos brutos]
+
+  C --> D[limpieza.R]
+  D --> E[Datos procesados]
+
+  E --> F[analisis.R]
+  F --> G[Resultados estadísticos]
+
+  G --> H[graficos.R]
+  H --> I[Figuras en results/figures]
+
+  I --> J[reporte.R]
+  J --> K[Reporte final]
