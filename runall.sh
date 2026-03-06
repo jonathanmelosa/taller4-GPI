@@ -20,7 +20,7 @@ echo "== Ejecutando pipeline del proyecto =="
 echo "Directorio del proyecto: $PROJECT_DIR"
 
 # Corre scripts en orden (modo limpio)
-Rscript --vanilla scripts/simulacion.R
+Rscript scripts/zenodo_data_acquisition.R
 Rscript --vanilla scripts/limpieza.R
 Rscript --vanilla scripts/analisis.R
 Rscript --vanilla scripts/graficos.R
